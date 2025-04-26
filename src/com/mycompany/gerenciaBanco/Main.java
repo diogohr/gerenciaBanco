@@ -16,7 +16,7 @@ public class Main {
         System.out.print("Informe seu CPF: ");
         String cpf = scanner.nextLine();
 
-        ContaBancaria conta = new ContaBancaria(nome, sobrenome, cpf);
+        com.mycompany.gerenciaBanco.ContaBancaria conta = new com.mycompany.gerenciaBanco.ContaBancaria(nome, sobrenome, cpf);
 
         int opcao;
         do {
